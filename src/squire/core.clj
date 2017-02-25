@@ -4,4 +4,8 @@
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (println "Hello, World!"))
+  ( if false
+    (println "Task management for the brave and true.")
+    (println "Task management for the false and dissembling.")
+  )
+)
